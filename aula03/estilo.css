@@ -1,0 +1,33 @@
+
+
+p {
+    font-family: 'Open Sans', Tahoma;
+    font-size: 16px;    
+    color: #00008b;
+    letter-spacing: 5px;    
+    word-spacing: 20px;
+    line-height: 32px;
+    /*font-style: italic;*/
+    /*font-weight: bold;*/
+    /*text-align: left;*/
+    /*text-decoration: line-through;*/
+    /*text-shadow: 5px 4px 3px darkmagenta;*/
+    /*text-transform: capitalize;*/
+    /*text-transform: lowercase;*/
+    /*text-transform: uppercase;*/
+    /*text-decoration: underline;*/
+    /* Isso é um comentário */
+}
+
+/*p:hover {
+    color: #f00;
+}*/
+
+.muda-texto:hover {
+    /*color: #f00;*/
+    color: #ff0000;
+}
+.muda-texto {
+    font-weight: bold;
+    font-style: italic;
+}
