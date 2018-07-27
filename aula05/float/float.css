@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 900px;
+    background-color: rosybrown;
+
+    /*Isso centraliza o site, mas é preciso ter largura (width)*/
+    margin: 0 auto;
+}
+
+header {
+    width: 900px;
+    height: 100px;
+    background-color: dodgerblue;
+}
+
+section {
+    width: 900px;
+    height: 350px;
+    background-color: darkorange;
+}
+
+.noticia-principal {
+    width: 600px;
+    height: 350px;
+    background-color: navy;
+    float: left;
+}
+
+.publicidade-principal {
+    width: 300px;
+    height: 350px;
+    background-color: lightseagreen;    
+    float: left;
+}
+
+.propaganda-secundaria {
+    width: 900px;
+    height: 150px;
+    background-color: mediumvioletred;
+}
+
+footer {
+    width: 900px;
+    height: 50px;
+    background-color: #000;
+}

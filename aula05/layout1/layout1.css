@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 900px;    
+    margin: 0 auto;    
+}
+
+header {
+    width: 900px;
+    height: 150px;
+    background-color: olivedrab;
+    margin-bottom: 10px;
+}
+
+nav {
+    width: 900px;
+    height: 50px;
+    background-color: mediumpurple;
+    margin-bottom: 10px;
+}
+
+.banner {
+    width: 900px;
+    height: 300px;
+    background-color: lightblue;
+    margin-bottom: 10px;
+}
+
+.noticias {
+    width: 900px;
+    height: 250px;    
+    margin-bottom: 10px;
+}
+
+.noticias article {
+    width: 293.3px;
+    height: 250px;
+    float: left;
+    background-color: palevioletred;
+}
+
+.article-center {
+    margin: 0 10px;
+}
+
+footer {
+    width: 900px;
+    height: 50px;
+    background-color: #000;
+}
