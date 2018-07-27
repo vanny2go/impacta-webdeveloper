@@ -1,0 +1,18 @@
+@font-face {
+    font-family: minha-fonte;
+    src: url('LOKICOLA.ttf'), url('LOKICOLA.eot');
+}
+
+body {
+    font-family: minha-fonte, tahoma;
+}
+
+
+
+/*p {
+    font-family: minha-fonte, tahoma;
+}
+
+h1, h5 {
+    font-family: 'Pacifico', cursive;
+}*/

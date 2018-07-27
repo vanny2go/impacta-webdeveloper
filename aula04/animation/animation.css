@@ -1,0 +1,61 @@
+@keyframes mudaCor {
+    from {
+        background-color: green;
+    }
+
+    to {
+        background-color: blueviolet;
+    }
+}
+
+/*@keyframes mover {
+    0% {
+        margin-left: 0;
+    }
+
+    50% {
+        margin-left: 150px;
+    }
+
+    100% {
+        margin-left: 0;
+
+    }
+}*/
+
+@keyframes mover {
+    0% {
+        margin-left: 0; 
+        margin-top: 0
+    }
+    25% {
+        margin-left: 150px; 
+        margin-top: 0;
+    }
+    50% {        
+        margin-left: 150px;
+        margin-top: 150px;
+        background-color: green;
+    }
+    75% {
+        margin-left: 0; 
+        margin-top: 150px;
+    }
+    100% {
+        margin-left: 0; 
+        margin-top: 0;
+    }
+}
+
+body {
+    /*background-color: blueviolet;*/
+    /*animation: mudaCor 5s linear infinite;*/
+}
+
+div {
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 50%;
+    animation: mover 5s infinite cubic-bezier(1, 0, 0, 1);
+}

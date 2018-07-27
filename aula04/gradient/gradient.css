@@ -1,0 +1,12 @@
+section {
+    width: 300px;
+    height: 300px;
+    /*background-color: dodgerblue;*/
+    background: linear-gradient(green 80%, black, blue, orange)
+    
+    /*background: #af7eda;*/
+    /*background: -moz-linear-gradient(top, #af7eda 0%, #986abc 47%, #80549e 100%);
+    background: -webkit-linear-gradient(top, #af7eda 0%,#986abc 47%,#80549e 100%);
+    background: linear-gradient(to bottom, #af7eda 0%,#986abc 47%,#80549e 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#af7eda', endColorstr='#80549e',GradientType=0 );*/
+}

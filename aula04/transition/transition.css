@@ -1,0 +1,18 @@
+a {
+    text-decoration: none;
+    font-family: tahoma;
+    font-size: 16px;
+    background-color: darkred;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    transition: .3s;
+    border-radius: 10px;
+}
+
+a:hover {
+   background-color: #fff;
+   border: 1px darkred solid;
+   color: darkred;
+}
