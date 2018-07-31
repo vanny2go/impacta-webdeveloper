@@ -1,0 +1,13 @@
+.argentina {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    .somente-desktop {
+        display: none;
+    }
+
+    .argentina {
+        display: block;
+    }
+}

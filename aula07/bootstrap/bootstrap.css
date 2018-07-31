@@ -1,0 +1,43 @@
+/*.link {
+    color: red;
+}*/
+
+/*.nav>li>a {
+    color: red;
+}*/
+
+ul li a {
+    color: red;
+}
+
+.navbar-default {
+    background-color: dodgerblue;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    background: #000;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: mediumseagreen;
+    border-color: green;
+}
+
+.btn-primary:hover {
+    background-color: green;    
+}
+
+.btn-primary:focus {
+    background-color: mediumseagreen;
+    border-color: green;
+}
+
+.btn-padrao:active:hover {
+    background-color: mediumseagreen;
+    border-color: green;
+}
+
+.meu-form {
+    max-width: 350px;
+}
