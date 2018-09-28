@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta 
+        name="viewport" 
+        content="width=device-width, 
+                user-scalable=no, 
+                initial-scale=1, 
+                maximum-scale=1" />
+    
+    <title>fetch</title>
+
+    <style>
+        .error {
+            border: 1px red solid;
+        }
+    </style>
+    
+</head>
+<body>
+    <p>Digite o cep:</p>
+    <input type="text" id="cepDigitado">
+    <button id="btnBuscarCep" disabled>Buscar CEP</button> 
+    <br>
+    <p id="bairro"></p>
+    <p id="localidade"></p>
+    <p id="logradouro"></p>    
+
+<script src="fetch.js"></script>
+</body>
+</html>
