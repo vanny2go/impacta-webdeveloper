@@ -1,0 +1,11 @@
+.espaco-abaixo {
+    margin-bottom: 2%;
+}
+
+
+
+@media(max-width: 768px) {
+    .col-md-2 .img-responsive {
+        width: 100%;
+    }
+}
