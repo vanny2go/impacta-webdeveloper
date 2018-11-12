@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+	<head>
+		<title>Checkbox</title>
+		<meta charset="utf-8" />
+        <meta name="description" content="Aqui fica a descrição">
+        <meta name="keywords" content="HTML,CSS,JSON,JavaScript">
+        <meta name="author" content="Eu mesmo">
+		<meta
+            name="viewport" 
+            content="
+			width=device-width, 
+			user-scalable=no, 
+			initial-scale=1, 
+			maximum-scale=1" />			
+
+            <link rel="stylesheet" href="radio.css">
+			<!-- Latest compiled and minified CSS -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">			
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+
+                    <div class="form-check">
+                        <label>
+                            <input type="radio" name="check" value="São Paulo - Tri MUNDIAL">
+                            <span class="label-text">São Paulo</span>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label>
+                            <input type="radio" name="check" value="Ponte Preta"> 
+                            <span class="label-text">Ponte Preta</span>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label>
+                            <input type="radio" name="check" value="Juventus">
+                            <span class="label-text">Juventus</span>
+                        </label>
+                    </div>
+                    
+			    </div>
+
+                <button class="btn btn-lg btn-success" id="btnSalvar">Salvar</button>                
+
+                <br><br>
+                <select class="form-control" id="estados">
+                    <option class="impacta" value="SP" data-msg="O dinheiro está aqui!!!!">São Paulo</option>
+                    <option class="impacta" value="RJ" data-msg="Arraial do cabo!">Rio de Janeiro</option>
+                    <option class="impacta" value="PR" data-msg="Lava Jato">Paraná</option>
+                </select>
+		    </div>
+        </div>
+		
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="radio.js"></script>
+	</body>
+</html>

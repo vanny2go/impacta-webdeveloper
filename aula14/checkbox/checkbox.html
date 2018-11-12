@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+	<head>
+		<title>Checkbox</title>
+		<meta charset="utf-8" />
+        <meta name="description" content="Aqui fica a descrição">
+        <meta name="keywords" content="HTML,CSS,JSON,JavaScript">
+        <meta name="author" content="Eu mesmo">
+		<meta
+            name="viewport" 
+            content="
+			width=device-width, 
+			user-scalable=no, 
+			initial-scale=1, 
+			maximum-scale=1" />			
+
+            <link rel="stylesheet" href="checkbox.css">
+			<!-- Latest compiled and minified CSS -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">			
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+
+                    <div class="form-check">
+                        <label>
+                            <input type="checkbox" name="check" value="Lasanha">
+                            <span class="label-text">Lasanha</span>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label>
+                            <input type="checkbox" name="check" value="Brócolis"> 
+                            <span class="label-text">Brócolis</span>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label>
+                            <input type="checkbox" name="check" value="Pizza">
+                            <span class="label-text">Pizza</span>
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <label>
+                            <input type="checkbox" name="check" value="Arroz, feijão e bife"> 
+                            <span class="label-text">Arroz, feijão e bife</span>
+                        </label>
+                    </div>				
+			    </div>
+
+                <button class="btn btn-lg btn-success" id="btnSalvar">Salvar</button>
+                <button class="btn btn-lg btn-primary" id="marcarTodos">Marcar todos</button>
+                <button class="btn btn-lg btn-warning" id="desmarcarTodos">Desmarcar todos</button>
+		    </div>
+        </div>
+		
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="checkbox.js"></script>
+	</body>
+</html>
